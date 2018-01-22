@@ -11,3 +11,10 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
+
+enablePlugins(DebianPlugin)
+maintainer := "Fred Newtz frnewt@cisco.com"
+packageSummary := "My play-demo Package"
+packageDescription := "Play Demo package"
+
+
